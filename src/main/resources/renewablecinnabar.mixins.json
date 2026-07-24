@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.disjoint.renewablecinnabar.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"MixinRenewableCinnabar"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

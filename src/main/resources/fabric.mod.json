@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "renewablecinnabar",
+	"version": "${version}",
+	"name": "Renewable Cinnabar",
+	"description": "A simple mod to make Cinnabar renewable in a thematically appropriate and easily farmable manner.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/renewablecinnabar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.disjoint.renewablecinnabar.RenewableCinnabar"
+		],
+		"fabric-datagen": [
+			"net.disjoint.renewablecinnabar.RenewableCinnabarDataGenerator"
+		]
+	},
+	"mixins": [
+		"renewablecinnabar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
