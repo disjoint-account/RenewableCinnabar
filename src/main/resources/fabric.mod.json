@@ -5,12 +5,11 @@
 	"name": "Renewable Cinnabar",
 	"description": "A simple mod to make Cinnabar renewable in a thematically appropriate and easily farmable manner.",
 	"authors": [
-		"disjoint"
+		"Me!"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/project/renewablecinnabar",
-		"sources": "https://github.com/disjoint-account/RenewableCinnabar",
-		"issues": "https://github.com/disjoint-account/RenewableCinnabar/issues"
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
 	"icon": "assets/renewablecinnabar/icon.png",
